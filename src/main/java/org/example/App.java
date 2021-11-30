@@ -31,7 +31,7 @@ public class App
                 dia = "sexta";
                 break;
             case 7:
-                dia = "sabado";
+                dia = "sábado";
                 break;
 
         }
