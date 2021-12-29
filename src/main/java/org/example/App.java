@@ -7,7 +7,6 @@ public class App
     public static void main( String[] args )
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Digite um numero correpondente ao dia da semana: ");
         int num = sc.nextInt();
         String dia = null;
 
@@ -33,10 +32,12 @@ public class App
             case 7:
                 dia = "sábado";
                 break;
+            default:
+                dia = "valor invalido";
 
         }
 
-        System.out.println("O dia da semana escolido e: " + dia);
+        System.out.println("Dia da semana: " + dia);
         
     }
 }
